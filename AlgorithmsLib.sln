@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsLib", "AlgorithmsLib.csproj", "{C3BAEAE0-5D51-4BCF-A216-910BD936C62C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algs test", "..\Algs test\Algs test.csproj", "{0F4B9226-6F37-4761-9D7D-A3A4E5834C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3BAEAE0-5D51-4BCF-A216-910BD936C62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BAEAE0-5D51-4BCF-A216-910BD936C62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BAEAE0-5D51-4BCF-A216-910BD936C62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BAEAE0-5D51-4BCF-A216-910BD936C62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4B9226-6F37-4761-9D7D-A3A4E5834C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4B9226-6F37-4761-9D7D-A3A4E5834C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4B9226-6F37-4761-9D7D-A3A4E5834C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4B9226-6F37-4761-9D7D-A3A4E5834C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E75325E-7BE8-4826-8161-9BE99715F006}
+	EndGlobalSection
+EndGlobal
