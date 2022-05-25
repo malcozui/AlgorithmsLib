@@ -8,6 +8,10 @@ namespace AlgorithmsLib;
 
 public class SortingAlgorithms
 {
+    /// <summary>
+    /// Sorts the given array in O(n^2) time.
+    /// </summary>
+    /// <param name="arr">The array to sort</param>
     public static void BubbleSort(int[] arr)
     {
         for (int i = 0; i < arr.Length - 1; i++)
@@ -22,6 +26,10 @@ public class SortingAlgorithms
             }
         }
     }
+    /// <summary>
+    /// Sorts the given array in O(n^2) time.
+    /// </summary>
+    /// <param name="arr">The array to sort</param>
     public static void SelectionSort(int[] arr)
     {
         for (int i = 0; i < arr.Length -1; i++)
@@ -38,6 +46,10 @@ public class SortingAlgorithms
             (arr[min], arr[i]) = (arr[i], arr[min]);
         }
     }
+    /// <summary>
+    /// Sorts the given array in O(n^2) time.
+    /// </summary>
+    /// <param name="arr">The array to sort</param>
     public static void CocktailSort(int[] arr)
     {
         bool swapped = true;
@@ -75,6 +87,10 @@ public class SortingAlgorithms
             start++;
         }
     }
+    /// <summary>
+    /// Sorts the given array in O(n^2) time.
+    /// </summary>
+    /// <param name="arr">The array to sort</param>
     public static void InsertionSort(int[] arr)
     {
         for (int i = 0; i < arr.Length; i++)
